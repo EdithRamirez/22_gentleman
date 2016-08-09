@@ -37,6 +37,7 @@ p{
 }
 .img-main{
 	width: 100%;
+	margin-bottom: 2%;
 }
 .normal{
 	font-weight: normal;
@@ -55,7 +56,12 @@ div.cuadro{
 	color: white;
 	display: inline-block;
 }
-
+h3{
+	font-size: 1em;
+}
+.inline{
+	display: inline;
+}
 /*boton*/
 button{
 	border-radius: 10px;
@@ -75,6 +81,7 @@ button{
 /*color rosa*/
 .text-rosa{
 	color: #e60a77;
+	font-weight: bold;
 }
 
 /**/
@@ -95,4 +102,19 @@ section{
 }
 p{
 	text-align: justify;
+}
+.titulo{
+	font-size: 1.5em;
+}
+li{
+	list-style: none;
+}
+img.borde-redo{
+	border: 1px dashed #AAA8A8;
+	border-radius: 50%;
+	padding: 1%;
+}
+#derechos{
+	text-align: center;
+	font-size: .8em;
 }
