@@ -1,0 +1,98 @@
+/*header*/
+h1{
+	font-size: 3em;
+	color: #fff;
+	font-weight: normal;
+	padding: 2%;
+}
+/*menu*/
+nav{
+	margin-top: 4%; 
+}
+nav a{
+	text-decoration: none;
+	padding: 3%;
+	color: #fff;
+}
+/*seccion fotos/texto*/
+h2{
+	font-size: 2em;
+	font-weight: 500;
+}
+.img-header{
+	width: 100%;	
+	height: auto;
+}
+/*padding*/
+.pd-2{ 
+	padding: 0 2%;
+}
+/*seccion fotos y texto*/
+/*estilos h4 latest project*/
+h4{
+	display: inline-block;
+}
+p{
+	padding: 4% 0;
+}
+.img-main{
+	width: 100%;
+}
+.normal{
+	font-weight: normal;
+	padding-left: 1%;
+}
+.redondo{
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	background-color: gray;
+	padding: 1.5% 1%;
+}
+div.cuadro{
+	padding: 6%;
+	margin: 0 1%; 
+	color: white;
+	display: inline-block;
+}
+
+/*boton*/
+button{
+	border-radius: 10px;
+	background-color: #999;
+	border: none;
+	cursor: pointer;
+	font-size: .8em;
+}
+
+.btn-read{
+	padding: 3%;
+	margin-top: 5%;
+}
+.btn-load{
+	padding: 1.5%;
+}
+/*color rosa*/
+.text-rosa{
+	color: #e60a77;
+}
+
+/**/
+article{
+	background-color: #999;
+}
+header, footer{
+	background-color: #333;
+}
+section{
+	background-color: #fff;
+	margin: 0 5%; 
+}
+
+.borde{
+	border-bottom: 1px dashed #777;	
+
+}
+p{
+	text-align: justify;
+}
