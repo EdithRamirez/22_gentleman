@@ -70,7 +70,6 @@ button{
 	cursor: pointer;
 	font-size: .8em;
 }
-
 .btn-read{
 	padding: 3%;
 	margin-top: 5%;
@@ -83,8 +82,7 @@ button{
 	color: #e60a77;
 	font-weight: bold;
 }
-
-/**/
+/*colores de fondo*/
 article{
 	background-color: #999;
 }
@@ -95,10 +93,9 @@ section{
 	background-color: #fff;
 	margin: 0 5%; 
 }
-
 .borde{
-	border-bottom: 1px dashed #777;	
-
+	border-bottom: 5px solid;
+	border-image: url("../img/borde.png") 0 0 29 fill repeat;
 }
 p{
 	text-align: justify;
@@ -117,4 +114,38 @@ img.borde-redo{
 #derechos{
 	text-align: center;
 	font-size: .8em;
+}
+.btn-follow{
+	background-color: #e60a77;
+	padding: 3% 5%;
+	margin-left: 4%;
+}
+form{
+	margin: 4% 0;
+}
+input{
+	background-color: rgba(0,0,0,0.6);
+	padding: 5% 3%;
+	border-radius: 5px;
+	border: none;
+}
+h5{
+	font-size: 1em;
+}
+.pt-4{
+	padding-top: 3%;
+	padding-left: 6%;
+}
+.container-fluid{
+	width: 100%;
+}
+.text-chico{
+	font-size: .6em;
+}
+h6{
+	font-size: .8em;
+	padding-top: 3%; 
+}
+.text-grande{
+	font-size: 1.5em;
 }
